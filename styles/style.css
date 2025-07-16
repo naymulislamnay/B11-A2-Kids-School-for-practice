@@ -1,0 +1,284 @@
+/* font */
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* nav bar style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 140px;
+}
+
+.logo-with-title{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 16px 0;
+    gap: 32px;
+    font-size: 20px;
+}
+
+nav ul li:nth-child(1) a{
+    color: #FEA301;
+}
+
+nav ul li:nth-child(2) a{
+    color: #01ACFD;
+}
+
+nav ul li:nth-child(3) a{
+    color: #05D4DF;
+}
+
+
+nav ul li:nth-child(4) a{
+    color: #5D58EF;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav button{
+    padding: 10px 60.5px;
+    color: white;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    max-width: 1158.61px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.banner-heading{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner-heading :nth-child(1){
+    color: #FEA301;
+}
+
+.banner-heading :nth-child(4){
+    color: #01ACFD;
+}
+
+
+.banner-description{
+    margin: 24px 0;
+    font-size: 20px;
+    color: #111111;
+}
+
+.banner-content button{
+    color: white;
+    padding: 10px 47px;
+    background-color: #111111;
+    border-radius: 12px;
+}
+
+.banner-content{
+    max-width: 640px;
+}
+
+.banner img{
+    max-width: 468.61px;
+    max-height: 575px;
+}
+
+/* cards section style */
+
+.curriculum h3{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.curriculum-cards{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 28.29px;
+}
+
+.curriculum-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 18.86px;
+}
+
+.curriculum-card img{
+    margin-top: 52px;
+}
+
+.curriculum-card h4{
+    margin-top: 32.07px;
+}
+
+.curriculum-card p{
+    margin: 20px 40.5px 33px;
+    text-align: center;
+    max-width: 286.26px;
+    font-size: 15.09px;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+}
+
+.curriculum-card button{
+    margin-bottom: 52px;
+    border: none;
+}
+
+.card-01{
+    background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0));
+
+}
+
+.card-02{
+    background-image: linear-gradient(to bottom, rgba(224, 255, 220, 1), rgba(255, 255, 255, 0));
+
+}
+
+.card-03{
+    background-image: linear-gradient(to bottom, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0));
+
+}
+
+
+.curriculum-cards :nth-child(1) button{
+    color: #64C8FF;
+}
+
+.curriculum-cards :nth-child(2) button{
+    color: #F0AA00;
+}
+
+.curriculum-cards :nth-child(3) button{
+    color: #8700FF;
+}
+
+.arrow-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+    gap: 10px;
+}
+
+.right-arrow, .left-arrow {
+    max-width: 60px;
+    max-height: 60px;
+    padding: 17px 22.5px;
+    border-radius: 50%;
+    background-color: #FEA301;
+}
+
+.fa-angle-left{
+    font-size: 24px;
+}
+
+.left-arrow{
+    rotate: 180deg;
+}
+
+/* our storys style */
+.our-stories h2{
+    text-align: center;
+    font-size: 46px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.story-left img{
+    border-radius: 20px 20px 0 0;
+}
+
+.story-content{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1160px;
+    border-radius: 20px;
+}
+
+.story-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.st-con{
+    flex: 1;
+}
+
+.story-right img{
+    border-radius: 20px 20px 0 0;
+}
+
+.story-content h4{
+    max-width: 150px;
+    padding: 15px 20px;
+    border-radius: 48px;
+    background-color: #26a2af;
+    font-size: 15.34px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    top: -48px;
+    left: 15px;   
+}
+
+.story-left h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 38.3px;
+    max-width: 402.49px;
+}
+
+.story-left p{
+    font-size: 15.34px;
+    font-weight: 600;
+    line-height: 28.8px;
+    max-width: 433.06px;
+    color: rgba(102, 102, 102, 1);
+    margin-top: 47px;
+}
+
+
+.story-right p{
+    font-size: 15.34px;
+    font-weight: bold;
+    max-width: 198.04px;
+    position: relative;
+    margin-left: 10px;
+    top: -45px;
+}
