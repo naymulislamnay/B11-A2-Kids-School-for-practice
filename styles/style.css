@@ -1,9 +1,21 @@
 /* font */
 
-.fira-sans-regular {
-  font-family: "Fira Sans", sans-serif;
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+
+
+.quicksand-regular {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: rgb(241, 240, 240);
 }
 
 /* nav bar style */
@@ -30,6 +42,7 @@ nav ul{
     margin: 16px 0;
     gap: 32px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 nav ul li:nth-child(1) a{
@@ -72,6 +85,7 @@ nav button{
     max-width: 1158.61px;
     margin: 0 auto;
     gap: 50px;
+    background: url("../assets/bg.png");
 }
 
 .banner-heading{
@@ -111,6 +125,7 @@ nav button{
 }
 
 /* cards section style */
+
 
 .curriculum h3{
     font-size: 46px;
@@ -281,4 +296,98 @@ nav button{
     position: relative;
     margin-left: 10px;
     top: -45px;
+}
+
+
+.our-stories button{
+    color: white;
+    padding: 10px 47px;
+    background-color: #111111;
+    border-radius: 12px;
+    display: flex;
+    margin: 80px auto 60px;
+}
+
+
+/* footer section */
+
+footer{
+    padding: 123px 140px 174px;
+    background-color: #01ACFD;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.footer-logo img{
+    background-color: white;
+    width: 82.9px;
+    height: 81.65px;
+}
+
+
+.footer-left h2{
+    font-size: 42.14px;
+    color: white;
+}
+
+.footer-left-des{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+.footer-left{
+    flex: 1.5;
+}
+
+.footer-middle, .footer-right{
+    flex: 1;
+}
+
+.footer-middle h4, .footer-right h4{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer-middle{
+    padding-left: 40px;
+}
+
+.footer-middle ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer-middle ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+
+.footer-middle ul{
+    padding: 0;
+}
+
+
+.our-stories{
+   background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(254, 163, 1, 0.3)), url("../assets/bg.png");
+   padding-bottom: 1px;
+}
+
+
+@media (max-width: 576px) {
+    nav{
+        padding: 5px 1px;
+    }
 }
